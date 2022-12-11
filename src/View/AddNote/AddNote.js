@@ -1,9 +1,11 @@
 import React from 'react'
 import "./AddNote.css"
 
+
+
 function AddNote() {
   return (
-    <div>AddNote</div>
+    <h1>Add Note</h1>
   )
 }
 

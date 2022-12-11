@@ -1,20 +1,19 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import './App.css';
-import AddNote from './View/AddNote/AddNote';
-import Home from './View/Home/Home';
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+
+import "./App.css"
+import AddNote from "./views/AddNote/AddNote"
+import Home from "./views/Home/Home"
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" elements={<Home/>}/>
-          <Route path="/addnote" elements={<AddNote/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path="/add-note" element={<AddNote />} />
         </Routes>
       </BrowserRouter>
     </div>
-  );
+  )
 }
-
-export default App;
