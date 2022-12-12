@@ -19,9 +19,15 @@
     border-radius: 10px;
     height: 400px;
     overflow-y: scroll;
-    margin-top: 50px;
+    margin-top: 30px;
   }
-  
+  .notes-container-item{
+    box-shadow: 0 0 2px 1px white ;
+      background-color: black;
+      padding: 5px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+  }
   .note-editor-container{
     padding: 10px;
     width: 400px;
@@ -29,13 +35,20 @@
     margin-right: auto;
     border-radius: 10px;
      height: 280px;
-    margin-top: 100px;
+    margin-top: 80px;
   }
-  
+  .note-editor-container-item{
+      box-shadow: 0 0 2px 1px white ;
+      background-color: black;
+      padding: 5px;
+      border-radius: 5px;
+  }
+
   .add-note-button-container{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    width: 300px;
   }
   .footer-container{
     text-align: center;

@@ -27,6 +27,7 @@ function Note({title, content, noteIndex}) {
 
   return (
     <div className='card-note'>
+      
       <h5 className='card-note-title'>{title}</h5>
       <p className='card-note-content'>{content}</p>
       <span className='delete-button' onClick={deleteNote}>❌</span>
