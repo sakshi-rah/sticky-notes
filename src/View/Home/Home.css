@@ -13,7 +13,7 @@
   
   .notes-container{
     padding: 10px;
-    width: 550px;
+    width: 470px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -39,4 +39,12 @@
   }
   .footer-container{
     text-align: center;
+  }
+  .costum-col{
+    width: 400px;
+    margin: 20px;
+  }
+  .costum-row{
+    margin-top: 30px;
+    margin-bottom: 20px;
   }

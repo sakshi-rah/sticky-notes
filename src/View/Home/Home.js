@@ -68,8 +68,8 @@ function Home() {
       <div className='app-title-container shadow-sm bg-danger text-light'>
         <h1 className='app-title'>📝 Sticky Notes </h1>
       </div>
-      <div className='row'>
-        <div className='col-md-6 '>
+      <div className='row custom-row'>
+        <div className='col-md-6 custom-col'>
           <div className='notes-container bg-secondary  p-2 text-dark bg-opacity-75'>
             {
               notes.map((note, index) => {
@@ -79,7 +79,7 @@ function Home() {
           </div>
         </div>
 
-        <div className='col-md-6'>
+        <div className='col-md-6 custom-col'>
           <div className='note-editor-container bg-secondary  p-2 text-light bg-opacity-75'>
             <h3 className='text-center'>Add Note</h3>
             <form>
