@@ -4,4 +4,4 @@
 
 ![Live Preview](./public/Screenshot/sticky-notes.png)
 
-[See Live Demo](https://store-notes-app.netlify.app)
+[See Live Demo](https://notes-sticky-app.netlify.app/)
